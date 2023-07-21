@@ -1,0 +1,63 @@
+:root{
+    --logo-color: #FED136;
+    --background-light: #fff;
+    --background-dark: #222;
+    --text-color: #777;
+    --input-color: #BBB;
+    --hover-color: #f2b50f;
+}
+body{
+    width: 1000px;
+    padding: 0 29px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* header */
+.logo{
+    color: var(--logo-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 1.3px;
+    font-family: 'Bilbo Swash Caps', sans-serif;
+}
+.header-item{
+    color: var(--logo-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+.header{
+    margin-bottom: 104px;
+}
+/* services */
+.info-title{
+    color: var(--background-dark);
+    text-align: center;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.list-title{
+    color: var(--background-dark);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+}
+.list-text{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    font-family: 'RobotoSlab', sans-serif;
+}
+.wrap-img{
+    text-align: center;
+}
