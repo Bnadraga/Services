@@ -21,6 +21,10 @@ body{
     letter-spacing: 1.3px;
     font-family: 'Bilbo Swash Caps', sans-serif;
 }
+.logo:hover,
+.logo:focus{
+    color: var(--hover-color);
+}
 .header-item{
     color: var(--logo-color);
     text-align: center;
@@ -28,6 +32,11 @@ body{
     font-weight: 700;
     line-height: 41px;
     text-transform: uppercase;
+    margin: auto;
+}
+.header-item:hover,
+.header-item:focus{
+    color: var(--hover-color);
 }
 .header{
     margin-bottom: 104px;
@@ -41,6 +50,7 @@ body{
     letter-spacing: -1px;
     text-transform: uppercase;
     font-size: 40px;
+    margin-bottom: 87px;
 }
 .list-title{
     color: var(--background-dark);
@@ -57,7 +67,53 @@ body{
     font-weight: 400;
     letter-spacing: -0.35px;
     font-family: 'RobotoSlab', sans-serif;
+    margin-bottom: 211px;
 }
 .wrap-img{
     text-align: center;
+}
+/* Contact us */
+.contact{
+    background-color: var(--background-dark);
+    height: 679px;
+}
+.contact-title{
+    color: var(--background-light);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 114px;
+}
+.form-label{
+    margin-left: 90px;
+}
+.form-1-label{
+    margin-left: 90px;
+}
+.form-input{
+    width: 455px;
+    height: 50px;
+    padding-left: 21px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+.button{
+    background-color: var(--logo-color);
+    border: none;
+    padding: 18px 33px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--background-light);
+    margin-top: 27px;
+}
+/* footer */
+.lorem{
+    color: var(--background-light);
+    margin-top: 115px;
 }
