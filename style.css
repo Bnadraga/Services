@@ -7,9 +7,11 @@
     --hover-color: #f2b50f;
 }
 body{
-    width: 1000px;
     padding: 0 29px;
     font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 934px;
 }
 /* header */
 .logo{
@@ -89,9 +91,6 @@ body{
 .form-label{
     margin-left: 90px;
 }
-.form-1-label{
-    margin-left: 90px;
-}
 .form-input{
     width: 455px;
     height: 50px;
@@ -104,13 +103,14 @@ body{
 .button{
     background-color: var(--logo-color);
     border: none;
-    padding: 18px 33px;
+    padding: 20px 33px;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
     color: var(--background-light);
     margin-top: 27px;
+    border-radius: 5px;
 }
 /* footer */
 .lorem{

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <a class="logo" href="#">Golden</a>
         <nav>
             <ul class="header-nav">
@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <section class="services">
             <h2 class="info-title">Services</h2>
             <ul class="info-list">
@@ -47,25 +47,27 @@
         </section>
         <section class="contact">
             <h2 class="contact-title">Contact us</h2>
-            <form action="" class="form">
-                <label class="form-label">
-                    <input class="form-input" type="text" placeholder="your name *">
-                </label>
-                <label class="form-label">
-                    <input class="form-input" type="text" placeholder="Your e-mail *">
-                </label>
-                <label class="form-label">
-                    <input class="form-input" type="text" placeholder="subject">
-                </label>
-                <label class="form-1-label">
-                    <input class="form-input" type="text" placeholder="Your message * ">
-                </label>
-            </form>
-            <button type="button" class="button">Send Message</button>
+            <div>
+                <form action="" class="form">
+                    <label class="form-label">
+                        <input class="form-input" type="text" placeholder="your name *">
+                    </label>
+                    <label class="form-label">
+                        <input class="form-input" type="email" placeholder="Your e-mail *">
+                    </label>
+                    <label class="form-label">
+                        <input class="form-input" type="text" placeholder="subject">
+                    </label>
+                    <label class="form-label">
+                        <input class="form-input" type="text" placeholder="Your message * ">
+                    </label>
+                </form>
+                <button type="button" class="button">Send Message</button>
+            </div>
         </section>
     </main>
-    <footer>
-        <p class="lorem">lorem</p>
+    <footer class="container">
+        <p class="lorem">2023</p>
     </footer>
 </body>
 </html>
