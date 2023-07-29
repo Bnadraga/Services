@@ -7,11 +7,11 @@
     --hover-color: #f2b50f;
 }
 body{
-    padding: 0 29px;
     font-family: 'Montserrat', sans-serif;
 }
 .container{
     width: 934px;
+    margin: 0 auto;
 }
 /* header */
 .logo{
@@ -41,9 +41,13 @@ body{
     color: var(--hover-color);
 }
 .header{
-    margin-bottom: 104px;
+    margin-bottom: 92px;
+    padding-top: 44px;
 }
 /* services */
+.info-list{
+    margin-bottom: 119px;
+}
 .info-title{
     color: var(--background-dark);
     text-align: center;
@@ -52,32 +56,32 @@ body{
     letter-spacing: -1px;
     text-transform: uppercase;
     font-size: 40px;
-    margin-bottom: 87px;
+    margin-bottom: 88px;
+}
+.info-card{
+    width: 274px;
 }
 .list-title{
     color: var(--background-dark);
-    text-align: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 75px;
     letter-spacing: -0.45px;
+    text-align: center;
 }
 .list-text{
     color: var(--text-color);
-    text-align: center;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.35px;
     font-family: 'RobotoSlab', sans-serif;
-    margin-bottom: 211px;
-}
-.wrap-img{
     text-align: center;
 }
 /* Contact us */
 .contact{
     background-color: var(--background-dark);
-    height: 679px;
+    padding-bottom: 116px;
+    padding-top: 92px;
 }
 .contact-title{
     color: var(--background-light);
@@ -86,19 +90,6 @@ body{
     letter-spacing: -1px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 114px;
-}
-.form-label{
-    margin-left: 90px;
-}
-.form-input{
-    width: 455px;
-    height: 50px;
-    padding-left: 21px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: -0.35px;
-    text-transform: uppercase;
 }
 .button{
     background-color: var(--logo-color);
