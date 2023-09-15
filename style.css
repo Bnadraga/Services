@@ -27,6 +27,9 @@ body{
 .logo:focus{
     color: var(--hover-color);
 }
+.header-nav{
+    display: flex;
+}
 .header-item{
     color: var(--logo-color);
     text-align: center;
@@ -34,7 +37,7 @@ body{
     font-weight: 700;
     line-height: 41px;
     text-transform: uppercase;
-    margin: auto;
+    justify-content: center;
 }
 .header-item:hover,
 .header-item:focus{
@@ -47,6 +50,7 @@ body{
 /* services */
 .info-list{
     margin-bottom: 119px;
+    display: flex;
 }
 .info-title{
     color: var(--background-dark);
